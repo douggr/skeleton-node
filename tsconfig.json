@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "incremental": true,
+    "lib": ["DOM", "ES2018", "ES2019", "ES2020", "ESNext"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "rootDir": "src",
+    "strict": true,
+    "target": "es2018"
+  },
+  "exclude": ["**/_*", "tests/**/*"],
+  "include": ["src/**/*"]
+}
